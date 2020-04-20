@@ -1,0 +1,78 @@
+
+@font-face {
+    font-family: 'corporativesans-rg';
+    src: url('Corporative_sans_RG/corporative_sans_alt_w00_rg-webfont.woff2') format('woff2'),
+    url('Corporative_sans_RG/corporative_sans_alt_w00_rg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'corporativesans-blackit';
+    src: url('Corporative_sans_BLACK_IT/corporative_sans_w00_black_it-webfont.woff2') format('woff2'),
+    url('Corporative_sans_BLACK_IT/corporative_sans_w00_black_it-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'corporativesans-black';
+    src: url('Corporative_sans_BLACK/corporative_sans_w00_black-webfont.woff2') format('woff2'),
+    url('Corporative_sans_BLACK/corporative_sans_w00_black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'corporativesans-boldit';
+    src: url('Corporative_sans_BOLD_IT/corporative_sans_w00_bold_it-webfont.woff2') format('woff2'),
+    url('Corporative_sans_BOLD_IT/corporative_sans_w00_bold_it-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'corporativesans-bold';
+    src: url('Corporative_sans_BOLD/corporative_sans_w00_bold-webfont.woff2') format('woff2'),
+    url('Corporative_sans_BOLD/corporative_sans_w00_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'corporativesans-bookit';
+    src: url('Corporative_sans_BOOK_IT/corporative_sans_w00_book_it-webfont.woff2') format('woff2'),
+    url('Corporative_sans_BOOK_IT/corporative_sans_w00_book_it-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'corporativesans-book';
+    src: url('Corporative_sans_BOOK/corporative_sans_w00_book-webfont.woff2') format('woff2'),
+    url('Corporative_sans_BOOK/corporative_sans_w00_book-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'corporativesans-lightit';
+    src: url('Corporative_sans_LIGHT_IT/corporative_sans_w00_light_it-webfont.woff2') format('woff2'),
+    url('Corporative_sans_LIGHT_IT/corporative_sans_w00_light_it-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'corporativesans-light';
+    src: url('Corporative_sans_LIGHT/corporative_sans_w00_light-webfont.woff2') format('woff2'),
+    url('Corporative_sans_LIGHT/corporative_sans_w00_light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'corporativesans-mediumit';
+    src: url('Corporative_sans_MEDIUM_IT/corporative_sans_w00_medium_it-webfont.woff2') format('woff2'),
+    url('Corporative_sans_MEDIUM_IT/corporative_sans_w00_medium_it-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'corporativesans-medium';
+    src: url('Corporative_sans_MEDIUM/corporative_sans_w00_medium-webfont.woff2') format('woff2'),
+    url('Corporative_sans_MEDIUM/corporative_sans_w00_medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

@@ -1,0 +1,21 @@
+
+@import url('fonts/fonts.css');
+
+
+* {
+    font-family: "Arial Nova", "Arial", sans-serif;
+}
+
+a {
+    color: #3e99cc;
+}
+a:hover {
+    color: #68c6df;
+}
+a:visited {
+    color: #1c75bc;
+}
+
+pre {
+    font-family: monospace;
+}

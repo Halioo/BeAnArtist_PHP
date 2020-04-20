@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../style/style.css">
+    <title>Javascript - Plus ou moins</title>
+</head>
+<body>
+
+<h1>Bienvenue sur le troisième exercice du TP Javascript</h1>
+
+
+<p>Ce TP est consacré à l'implémentation d'un jeu de "plus ou moins"</p>
+
+<form id="maxValue" oninput="result.value = parseInt(max.value)">
+    <label for="max"></label>
+    <input type="range" id="max" name="max" min="0" max="100" value="50">
+    <span>Choix d'un nombre entre 0 et <output name="result"></output></span>
+</form>
+
+<button onclick="init_game(document.getElementById('maxValue')['max'].value)">Lancer le jeu</button>
+
+<hr />
+<div id="plus_ou_moins" style="display: none">
+
+    <form id="plus_moins">
+        <div>
+            <label for="number">Choisissez un nombre : </label>
+            <input type="text" name="number" id="number" />
+        </div>
+        <div>
+            <output name="result"></output>
+        </div>
+    </form>
+
+    <button onclick="plus_ou_moins(number.value)">Tester la valeur</button>
+
+    <p id="testResult"></p>
+
+
+    <br />
+    <button onclick="reset_game()">Remettre à zéro</button>
+</div>
+
+<hr />
+<a href="tp_javascript">Retour aux exercices</a>
+
+<script src="/js/plus_ou_moins.js"></script>
+</body>
+
+</html>

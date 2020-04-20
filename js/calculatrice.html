@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../style/style.css">
+    <title>Javascript - Calculatrice</title>
+</head>
+<body>
+
+<h1>Bienvenue sur le deuxième exercice du TP Javascript</h1>
+
+<form id="calculatrice">
+    <div>
+        <label for="nb1">Paramètre 1 : </label>
+        <input type="text" id="nb1" name="nb1" placeholder="param 1" required autofocus>
+    </div>
+    <div>
+        <label for="nb2">Paramètre 2 : </label>
+        <input type="text" id="nb2" name="nb2" placeholder="param 2" required>
+    </div>
+
+    <div>
+        <div>
+            <input type="radio" id="add" name="operation_type" value="add" checked>
+            <label for="add">Addition</label>
+        </div>
+        <div>
+            <input type="radio" id="substract" name="operation_type" value="substract">
+            <label for="substract">Soustraction</label>
+        </div>
+        <div>
+            <input type="radio" id="multiply" name="operation_type" value="multiply">
+            <label for="multiply">Multiplication</label>
+        </div>
+        <div>
+            <input type="radio" id="divide" name="operation_type" value="divide">
+            <label for="divide">Division</label>
+        </div>
+    </div>
+
+    <div>
+        <label for="result"> Résultat : </label>
+        <input type="text" id="result" name="result" placeholder="Résultat">
+    </div>
+</form>
+
+<button onclick="calcul()">faire le calcul</button>
+
+<hr />
+<a href="tp_javascript">Retour aux exercices</a>
+
+<script src="/js/calculatrice.js"></script>
+
+</body>
+</html>

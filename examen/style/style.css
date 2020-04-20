@@ -1,0 +1,14 @@
+/* Ceci est la feuille de style de l'examen de PHP/JS */
+
+* {
+    font-family: 'Arial Nova', 'Arial', sans-serif;
+}
+
+form {
+    margin-left: 100px;
+}
+
+td.nom_media {
+    font-weight: bold;
+}
+

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../style/style.css">
+    <title>Javascript - Introduction</title>
+    <script>
+        function makeBold(element_id) {
+            document.getElementById(element_id).style.fontWeight = "bold";
+        }
+    </script>
+</head>
+<body>
+
+<h1>Bienvenue sur le premier exercice du TP Javascript</h1>
+
+
+<script>
+    document.write("Ce texte est écrit grâce à du Javascript");
+</script>
+
+<hr />
+
+<div>
+    <p id="demo">Ce texte va changer si vous cliquez sur le bouton ci-dessous :</p>
+    <button onclick="changeText()">Cliquer ici pour changer le texte</button>
+</div>
+
+<hr />
+
+<img id="lamp" src="/js/img/lampeEteinte.png" alt="eteinte">
+<div>
+    <button onclick="updateLampState()">Interrupteur</button>
+</div>
+
+<hr />
+
+<div>
+    <p id="bold">Ce paragraphe deviendra gras si vous cliquez sur le bouton ci-dessous :</p>
+    <button onclick="makeBold('bold')">Mettre en gras</button>
+</div>
+
+<hr />
+<a href="tp_javascript">Retour aux exercices</a>
+
+<!-- il est recommandé de mettre les script en fin de body -->
+<script>
+    function changeText() {
+        document.getElementById("demo").innerHTML = "Pouf ! le texte est différent";
+    }
+</script>
+<script>
+    function updateLampState() {
+        let currentLampState = document.getElementById("lamp").alt;
+        if (currentLampState === "allumee") {
+            document.getElementById("lamp").alt = "eteinte";
+            document.getElementById("lamp").src = "/js/img/lampeEteinte.png";
+        } else {
+            document.getElementById("lamp").alt = "allumee";
+            document.getElementById("lamp").src = "/js/img/lampeAllumee.png";
+        }
+    }
+</script>
+
+</body>
+</html>

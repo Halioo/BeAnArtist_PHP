@@ -1,0 +1,43 @@
+RewriteEngine on
+
+# Redirections pages Web
+RewriteRule ^(cv)$ src/cvPuybareauClement.html [NC,L]
+RewriteRule ^(css)$ style/style.css [L]
+
+
+# Redirections EtreUnArtiste
+RewriteRule ^(login)$ src/login/login.php [L]
+RewriteRule ^(rLog)$ src/login/retourLogin.php [L]
+
+RewriteRule ^(admin)$ src/admin/menuAdministrateur.php [L]
+
+RewriteRule ^(listeConcours)$ src/listeConcours.php [L]
+RewriteRule ^(concours)$ src/menuConcours.php [L]
+
+RewriteRule ^(ajoutUtilisateur)$ src/ajoutUtilisateur/ajoutUtilisateur.php [L]
+RewriteRule ^(rAddUser)$ src/ajoutUtilisateur/retourAjoutUtilisateur.php [L]
+
+RewriteRule ^(ajoutConcours)$ src/creationConcours/creationConcours.php [L]
+RewriteRule ^(rAddConcours)$ src/creationConcours/retourCreationConcours.php [L]
+
+
+# Redirections tp javascript
+RewriteRule ^(tp_javascript)$ js/tp_js.html [L]
+RewriteRule ^(js1)$ js/ex1.html [L]
+RewriteRule ^(js2)$ js/calculatrice.html [L]
+RewriteRule ^(js3)$ js/plus_ou_moins.html [L]
+
+
+# Redirections Examen
+
+RewriteRule ^(exam)$ examen/index_examen.php [L]
+RewriteRule ^(exam/css)$ examen/style/style.css [L]
+RewriteRule ^(exam/js)$ examen/js/afficheMedia.js [L]
+
+RewriteRule ^(exam/mediatheque)$ examen/listeMedia.php [L]
+RewriteRule ^(exam/mediatheque/ajout)$ examen/ajoutMedia/ajoutMedia.php [L]
+RewriteRule ^(exam/mediatheque/rajout)$ examen/ajoutMedia/retourAjoutMedia.php [L]
+
+RewriteRule ^(exam/mediatheque/emprunt)$ examen/empruntMedia/empruntMedia.php [L]
+RewriteRule ^(exam/mediatheque/remprunt)$ examen/empruntMedia/retourEmpruntMedia.php [L]
+
